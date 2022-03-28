@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Material
-  m_Shader: {fileID: 4800000, guid: 6a78b3e5d04f5524a871ae665ed1c5b3, type: 3}
+  m_Name: PlanetMaterial
+  m_Shader: {fileID: 4800000, guid: e080bd64137e2cc4580324e5957e271c, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -41,7 +41,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 0, y: 0}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -55,34 +55,38 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Tex1:
-        m_Texture: {fileID: 2800000, guid: b0aba8524b3981a42af8c433e67a2530, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Tex2:
-        m_Texture: {fileID: 2800000, guid: 60208fcc16a2a004a8bb82d1b58bd9b5, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AtmosphereRadius: 0.1
     - _BumpScale: 1
     - _Cutoff: 0.5
+    - _Degrees: 180
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Height: 0.1
+    - _Height: 0.21
     - _Metallic: 0
-    - _MixValue: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _Pow: 3.7
+    - _Seed: 4446
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _Step: 0
+    - _Strength: 1
+    - _Test: 4.54
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.9150943, g: 0.5009042, b: 0.004316493, a: 1}
+    - _AtmosphereColor: {r: 0.0757387, g: 0.36417216, b: 0.4339623, a: 1}
+    - _Color: {r: 0.0047169924, g: 0.25682664, b: 1, a: 1}
+    - _ColorEarth: {r: 0, g: 1, b: 0.00022888184, a: 1}
+    - _ColorMountains: {r: 0.8862745, g: 0.5193499, b: 0.2117647, a: 1}
+    - _ColorWater: {r: 0.25882354, g: 0.25907147, b: 0.7058824, a: 1}
+    - _Emission: {r: 0.6037736, g: 0.33321467, b: 0.33321467, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MainColor: {r: 0.43507096, g: 0.23268954, b: 0.5943396, a: 1}
   m_BuildTextureStacks: []
