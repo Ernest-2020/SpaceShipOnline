@@ -65,13 +65,13 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Height: 0.21
+    - _Height: 0.1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Pow: 3.7
-    - _Seed: 4446
+    - _Seed: 6780
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -83,10 +83,10 @@ Material:
     m_Colors:
     - _AtmosphereColor: {r: 0.0757387, g: 0.36417216, b: 0.4339623, a: 1}
     - _Color: {r: 0.0047169924, g: 0.25682664, b: 1, a: 1}
-    - _ColorEarth: {r: 0, g: 1, b: 0.00022888184, a: 1}
-    - _ColorMountains: {r: 0.8862745, g: 0.5193499, b: 0.2117647, a: 1}
-    - _ColorWater: {r: 0.25882354, g: 0.25907147, b: 0.7058824, a: 1}
-    - _Emission: {r: 0.6037736, g: 0.33321467, b: 0.33321467, a: 0}
+    - _ColorEarth: {r: 0.32306868, g: 0.41509432, b: 0.32306868, a: 1}
+    - _ColorMountains: {r: 0.8207547, g: 0.4921394, b: 0.2206746, a: 1}
+    - _ColorWater: {r: 0.17986828, g: 0.17986828, b: 0.8867924, a: 1}
+    - _Emission: {r: 0.5320163, g: 0.5377358, b: 0.24603951, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainColor: {r: 0.43507096, g: 0.23268954, b: 0.5943396, a: 1}
   m_BuildTextureStacks: []
