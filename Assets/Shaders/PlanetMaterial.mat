@@ -71,7 +71,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Pow: 3.7
-    - _Seed: 6780
+    - _Seed: 3559
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1

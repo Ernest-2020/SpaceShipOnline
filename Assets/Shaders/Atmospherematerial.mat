@@ -65,18 +65,18 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Height: 0.09
+    - _Height: 0.53
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Pow: 18.7
-    - _Seed: 9282
+    - _Pow: 20.3
+    - _Seed: 7108
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Step: 6.65
-    - _Strength: 0.727
+    - _Strength: 0.737
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
